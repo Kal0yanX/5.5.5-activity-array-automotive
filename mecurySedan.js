@@ -43,9 +43,10 @@ class Car extends VehicleModule.Vehicle {
 const Car1 = new Car("A28 Mercury", "Sedan", 2023, "black", 12000, 4, 4, 5, 160, 10, 'false')
 
 console.log(Car1);
-Car1.loadPassenger(6);
+Car1.loadPassenger();
 Car1.start(1);
-Car1.checkService()
+Car1.checkService(12000)
+Car1.typeOfVehicle(4)
 
 
 //ORIGINAL CODING THAT DID NOT WORK BELOW
